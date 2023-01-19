@@ -4,7 +4,7 @@
         font-size: 18px;
     }
     .container{
-        max-width: 390px;
+        max-width: 100px;
         display: grid;
         justify-content: center;
         gap: 5px;
