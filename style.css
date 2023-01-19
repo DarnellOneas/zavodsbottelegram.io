@@ -1,0 +1,85 @@
+@media screen and (max-width: 576px) {
+    body{
+        position: static;
+    }
+    .container{
+        display: grid;
+        justify-content: center;
+        max-width: 390px;
+        gap: 5px;
+        grid-template-areas: 
+        'phone osago request'
+        'phone shopauto request'
+        'towtrack feedback request'
+        'towtrack feedback request'
+        'address address command'
+        'address address site';
+        
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        border: none;
+    }
+.phone{
+    width: 100px;
+    height: 100px;
+    grid-area: phone;
+
+}
+
+
+
+.osago{
+    background-color: aqua;
+    width: 100px;
+    height: 47.5px;
+    grid-area: osago;
+}
+.shopauto{
+    background-color: aqua;
+    width: 100px;
+    height: 47.5px;
+    grid-area: shopauto;
+}
+.request{
+    background-color: orange;
+    width: 100px;
+    height: 205px;
+    grid-area: request;
+}
+.towtrack{
+
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    grid-area: towtrack;
+}
+.feedback{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    grid-area: feedback;
+}
+.address{
+
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    grid-area: address;
+}
+.command{
+    background-color: blue;
+    width: 100px;
+    height: 47.5px;
+    grid-area: command;
+}
+.site{
+    background-color: blue;
+    width: 100px;
+    height: 47.5px;
+    grid-area: site;
+}
+}
