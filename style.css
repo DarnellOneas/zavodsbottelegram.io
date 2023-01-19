@@ -4,7 +4,7 @@
         font-size: 18px;
     }
     .container{
-        max-width: 100px;
+        max-width: 390px;
         display: grid;
         justify-content: center;
         gap: 5px;
@@ -25,8 +25,8 @@
         border: none;
     }
 .phone{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     grid-area: phone;
 
 }
@@ -35,51 +35,51 @@
 
 .osago{
     background-color: aqua;
-    width: 100px;
-    height: 47.5px;
+    width: 300px;
+    height: 142.5px;
     grid-area: osago;
 }
 .shopauto{
     background-color: aqua;
-    width: 100px;
-    height: 47.5px;
+    width: 300px;
+    height: 142.5px;
     grid-area: shopauto;
 }
 .request{
     background-color: orange;
-    width: 100px;
-    height: 205px;
+    width: 300px;
+    height: 615px;
     grid-area: request;
 }
 .towtrack{
 
     background-color: red;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     grid-area: towtrack;
 }
 .feedback{
     background-color: yellow;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     grid-area: feedback;
 }
 .address{
 
     background-color: green;
-    width: 200px;
-    height: 100px;
+    width: 600px;
+    height: 300px;
     grid-area: address;
 }
 .command{
     background-color: blue;
-    width: 100px;
-    height: 47.5px;
+    width: 300px;
+    height: 142.5px;
     grid-area: command;
 }
 .site{
     background-color: blue;
-    width: 100px;
-    height: 47.5px;
+    width: 300px;
+    height: 142.5px;
     grid-area: site;
 }
