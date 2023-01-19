@@ -1,11 +1,13 @@
 @media screen and (max-width: 1080px) {
     body{
-        position: static;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
     }
     .container{
+        max-width: 390px;
         display: grid;
         justify-content: center;
-        max-width: 390px;
         gap: 5px;
         grid-template-areas: 
         'phone osago request'
