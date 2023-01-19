@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 576px) { */
+@media screen and (max-width: 1080px) {
     body{
         position: static;
     }
@@ -82,4 +82,4 @@
     height: 47.5px;
     grid-area: site;
 }
-/* } */
+}
