@@ -30,63 +30,152 @@
     height: 100px;
     grid-area: phone;
 }
-.button_phone{
+.but_phone{
     width: 100px;
     height: 100px;
     border: none;
-    border-radius: 20%;
-    background: linear-gradient(45deg, red,orange);
+    border-start-end-radius: 20px;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+    border-end-end-radius: 20px;
+    background: linear-gradient(45deg, red,rgb(255, 119, 0));
 
 }
 
 
 .osago{
-    background-color: aqua;
     width: 100px;
     height: 43.5px;
     grid-area: osago;
 }
+.but_osago{
+    width: 100px;
+    height: 43.5px;
+    border: none;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    background: linear-gradient(45deg, blue,rgb(102, 154, 238));
+}
+
+
 .shopauto{
-    background-color: aqua;
     width: 100px;
     height: 43.5px;
     grid-area: shopauto;
 }
+.but_shopauto{
+    width: 100px;
+    height: 43.5px;
+    border: none;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    background: linear-gradient(45deg, blue, rgb(102, 154, 238));
+}
+
+
 .request{
-    background-color: orange;
     width: 100px;
     height: 215px;
     grid-area: request;
 }
-.towtrack{
+.but_request{
+    width: 100px;
+    height: 215px;
+    border: none;
+    /* border-radius: 20%; */
+    border-start-end-radius: 20px;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+    border-end-end-radius: 20px;
+    background: linear-gradient(45deg, orange,rgb(242, 203, 112));
+}
 
-    background-color: red;
+
+
+.towtrack{
     width: 100px;
     height: 100px;
     grid-area: towtrack;
 }
+.but_towtrack{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-start-end-radius: 20px;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+    border-end-end-radius: 20px;
+    background: linear-gradient(45deg, red,rgb(255, 119, 0));
+
+}
+
+
+
 .feedback{
-    background-color: yellow;
     width: 100px;
     height: 100px;
     grid-area: feedback;
 }
-.address{
+.but_feedback{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-start-end-radius: 20px;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+    border-end-end-radius: 20px;
+    background: linear-gradient(45deg, rgb(126, 250, 1),rgb(211, 221, 26));
 
-    background-color: green;
+}
+.address{
     width: 200px;
     height: 100px;
     grid-area: address;
 }
+.but_address{
+    width: 200px;
+    height: 100px;
+    border: none;
+    border-start-end-radius: 20px;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+    border-end-end-radius: 20px;
+    background: linear-gradient(45deg, rgb(20, 191, 35),rgb(93, 237, 77));
+
+}
 .command{
-    background-color: blue;
+
     width: 100px;
     height: 43.5px;
     grid-area: command;
 }
+.but_command{
+    width: 100px;
+    height: 43.5px;
+    border: none;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    background: linear-gradient(45deg, rgb(158, 69, 145), rgb(239, 64, 239));
+}
 .site{
-    background-color: blue;
+
     width: 100px;
     height: 43.5px;
     grid-area: site;
+}
+.but_site{
+    width: 100px;
+    height: 43.5px;
+    border: none;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    background: linear-gradient(45deg, rgb(158, 69, 145), rgb(239, 64, 239));
 }
