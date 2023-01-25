@@ -1,8 +1,7 @@
 body{
         position: relative;
         margin: 0;
-        padding: 0;
-        padding-top: 50px;
+        padding-top:50px;
         -moz-user-select: none;
         user-select: none;
 }
@@ -10,7 +9,7 @@ body{
         max-width: 480px;
         display: grid;
         justify-content: center;
-        gap: 5px;
+        gap: 7px;
         grid-template-areas: 
         'phone osago request'
         'phone shopauto request'

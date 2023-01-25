@@ -1,7 +1,6 @@
 body{
     position: relative;
     margin: 0;
-    padding: 0px;
     padding-top: 50px;
     -moz-user-select: none;
     user-select: none;
@@ -14,11 +13,31 @@ body{
     grid-template-areas: 
     'image'
     'description'
-    'button';
+    'button_novgorod'
+    'button_krym';
 }
 
+.image{
+    grid-area: image;
+    width: 200px;
+    height: 200px;
+}
+
+
+.description{
+    grid-area: description;
+}
+h5{
+    color: gray;
+}
+h4{
+    color: white;
+
+}
+
+/*настройки кнопок*/
+
 button{
-    grid-area: button;
     width: 200px;
     height: 45px;
     border: none;
@@ -28,17 +47,11 @@ button{
     border-end-end-radius: 10px;
     background: linear-gradient(45deg, rgb(254, 93, 0),rgb(255, 162, 0));
 }
-img{
-    grid-area: image;
-    width: 200px;
-    height: 200px;
+.button_novgorod{
+   grid-area: button_novgorod;
 }
-h5{
-    grid-area: desctiption;
-    justify-content: center;
+.button_krym{
+grid-area: button_krym;
+}
 
-}
-h4{
-    color: white;
-    justify-content: center;
-}
+
