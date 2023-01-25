@@ -27,6 +27,7 @@ h4{
     justify-content:center;
 }
 .phone{
+    
     width: 100px;
     height: 100px;
     grid-area: phone;
@@ -43,6 +44,7 @@ h4{
 
 }
 .imgPhone{
+    padding-top: 2px;
     width: 50px;
     height: 50px;
 }
