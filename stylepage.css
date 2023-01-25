@@ -5,7 +5,7 @@ body{
     user-select: none;
 }
 span{
-    color: orangered;
+    color: rgb(255, 162, 0);
 }
 .container{
     max-width: 480px;
