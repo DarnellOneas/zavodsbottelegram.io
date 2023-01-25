@@ -1,8 +1,11 @@
 body{
     position: relative;
-    margin: 0;
+    margin: 5%;
     -moz-user-select: none;
     user-select: none;
+}
+span{
+    color: orangered;
 }
 .container{
     max-width: 480px;
@@ -27,15 +30,18 @@ body{
 
 
 .description{
+    width: 200px;
     grid-area: description;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 h5{
     color: gray;
+
 }
 h4{
     color: white;
-
 }
 
 /*настройки кнопок*/
