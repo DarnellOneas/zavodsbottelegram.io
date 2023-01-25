@@ -40,7 +40,7 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg, red,rgb(255, 119, 0));
+    background: linear-gradient(45deg, #FFAE1A,#FFC355);
 
 }
 .imgPhone{
@@ -63,7 +63,7 @@ h4{
     border-end-start-radius: 10px;
     border-start-start-radius: 10px;
     border-end-end-radius: 10px;
-    background: linear-gradient(45deg, blue,rgb(102, 154, 238));
+    background: linear-gradient(45deg,rgb(0, 0, 0),rgb(60, 60, 60));
 }
 
 
@@ -80,7 +80,7 @@ h4{
     border-end-start-radius: 10px;
     border-start-start-radius: 10px;
     border-end-end-radius: 10px;
-    background: linear-gradient(45deg, blue, rgb(102, 154, 238));
+    background: linear-gradient(45deg, rgb(0, 0, 0),rgb(60, 60, 60));
 }
 
 
@@ -97,7 +97,7 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg, orange,rgb(242, 203, 112));
+    background: linear-gradient(45deg,  #FFAE1A,#FFC355);
 }
 
 
@@ -115,7 +115,7 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg, red,rgb(255, 119, 0));
+    background: linear-gradient(45deg, #FFAE1A,#FFC355);
 
 }
 
@@ -134,7 +134,7 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg, rgb(126, 250, 1),rgb(211, 221, 26));
+    background: linear-gradient(45deg,  #dadada,#ffffff);
 
 }
 .address{
@@ -150,7 +150,7 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg, rgb(20, 191, 35),rgb(93, 237, 77));
+    background: linear-gradient(45deg,  #dadada,#ffffff);
 
 }
 .command{
@@ -167,7 +167,7 @@ h4{
     border-end-start-radius: 10px;
     border-start-start-radius: 10px;
     border-end-end-radius: 10px;
-    background: linear-gradient(45deg, rgb(158, 69, 145), rgb(239, 64, 239));
+    background: linear-gradient(45deg, rgb(0, 0, 0),rgb(60, 60, 60));
 }
 .site{
 
@@ -183,5 +183,5 @@ h4{
     border-end-start-radius: 10px;
     border-start-start-radius: 10px;
     border-end-end-radius: 10px;
-    background: linear-gradient(45deg, rgb(158, 69, 145), rgb(239, 64, 239));
+    background: linear-gradient(45deg, rgb(0, 0, 0),rgb(60, 60, 60));
 }
