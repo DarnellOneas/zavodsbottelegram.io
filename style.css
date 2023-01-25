@@ -7,9 +7,10 @@ body{
 }
 .container{
         max-width: 480px;
+        text-align: center;
         display: grid;
         justify-content: center;
-        gap: 7px;
+        gap: 6px;
         grid-template-areas: 
         'phone osago request'
         'phone shopauto request'
@@ -86,7 +87,7 @@ h4{
 }
 .but_request{
     width: 100px;
-    height: 215px;
+    height: 213.5px;
     border: none;
     /* border-radius: 20%; */
     border-start-end-radius: 20px;
