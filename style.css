@@ -3,6 +3,8 @@
         margin: 0;
         padding: 0;
         padding-top: 50px;
+        -moz-user-select: none;
+        user-select: none;
     }
     .container{
         max-width: 480px;
