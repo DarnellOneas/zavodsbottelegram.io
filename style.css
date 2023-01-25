@@ -1,12 +1,12 @@
-    body{
+body{
         position: relative;
         margin: 0;
         padding: 0;
         padding-top: 50px;
         -moz-user-select: none;
         user-select: none;
-    }
-    .container{
+}
+.container{
         max-width: 480px;
         display: grid;
         justify-content: center;
@@ -19,7 +19,7 @@
         'address address command'
         'address address site';
         
-    }
+}
 h4{
     color: white;
     justify-content:center;
