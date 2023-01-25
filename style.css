@@ -27,7 +27,6 @@ h4{
     justify-content:center;
 }
 .phone{
-    
     width: 100px;
     height: 100px;
     grid-area: phone;
@@ -40,13 +39,15 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg, #FFAE1A,#FFC355);
+    background: linear-gradient(45deg, #ff7301,#ff7d26);
 
 }
-.imgPhone{
+.imgPhoneTowTruck{
     padding-top: 2px;
     width: 50px;
     height: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -63,7 +64,7 @@ h4{
     border-end-start-radius: 10px;
     border-start-start-radius: 10px;
     border-end-end-radius: 10px;
-    background: linear-gradient(45deg,#1c1c1c,#3b3b3b);
+    background: linear-gradient(45deg,#323232,#595959);
 }
 
 
@@ -80,7 +81,7 @@ h4{
     border-end-start-radius: 10px;
     border-start-start-radius: 10px;
     border-end-end-radius: 10px;
-    background: linear-gradient(45deg, #1c1c1c,#3b3b3b);
+    background: linear-gradient(45deg, #323232,#595959);
 }
 
 
@@ -97,7 +98,7 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg,  #FFAE1A,#FFC355);
+    background: linear-gradient(45deg,  #ff7301,#ff7d26);
 }
 
 
@@ -115,8 +116,7 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg, #FFAE1A,#FFC355);
-
+    background: linear-gradient(45deg, #ff7301,#ff7d26);
 }
 
 
@@ -134,7 +134,7 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg,  #dadada,#e6e4e4);
+    background: linear-gradient(45deg,  #c1c1c1,#e1e1e1);
 
 }
 .address{
@@ -150,7 +150,7 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg,  #dadada,#e6e4e4);
+    background: linear-gradient(45deg,  #c1c1c1,#e1e1e1);
 
 }
 .command{
@@ -167,7 +167,7 @@ h4{
     border-end-start-radius: 10px;
     border-start-start-radius: 10px;
     border-end-end-radius: 10px;
-    background: linear-gradient(45deg, #1c1c1c,#3b3b3b);
+    background: linear-gradient(45deg, #323232,#595959);
 }
 .site{
 
@@ -183,5 +183,5 @@ h4{
     border-end-start-radius: 10px;
     border-start-start-radius: 10px;
     border-end-end-radius: 10px;
-    background: linear-gradient(45deg, #1c1c1c,#3b3b3b);
+    background: linear-gradient(45deg, #323232,#595959);
 }
