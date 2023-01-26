@@ -1,6 +1,6 @@
 body{
     position: relative;
-    margin: 5%;
+    margin: 2%;
     -moz-user-select: none;
     user-select: none;
 }
@@ -10,8 +10,9 @@ span{
 .container{
     max-width: 480px;
     display: grid;
+    border: none;
     justify-content: center;
-    gap: 5px;
+    gap: 0;
     grid-template-areas: 
     'image'
     'description'
@@ -20,6 +21,7 @@ span{
 }
 
 .image{
+    border: none;
     grid-area: image;
     width: 200px;
     height: 200px;
@@ -30,6 +32,7 @@ span{
 
 
 .description{
+    font-weight: 500px;
     width: 200px;
     grid-area: description;
     text-align: center;
@@ -38,7 +41,7 @@ span{
 }
 h5{
     color: gray;
-
+    font-weight: 700;
 }
 h4{
     color: white;

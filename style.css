@@ -19,8 +19,7 @@ body{
         'towtrack feedback request'
         'towtrack feedback request'
         'address address command'
-        'address address site';
-        
+        'address address site';       
 }
 h4{
     color: white;
@@ -134,14 +133,28 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg,  #c1c1c1,#e1e1e1);
+    background: linear-gradient(45deg,  #c1c1c1,#e4e4e4);
 
 }
+
+
+
+
 .address{
     width: 200px;
     height: 100px;
     grid-area: address;
 }
+.imgMap{
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+.text_mapFeedback{
+    color: #323232;
+}
+
+
 .but_address{
     width: 200px;
     height: 100px;
@@ -150,7 +163,7 @@ h4{
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg,  #c1c1c1,#e1e1e1);
+    background: linear-gradient(45deg,  #c1c1c1,#e4e4e4);
 
 }
 .command{
