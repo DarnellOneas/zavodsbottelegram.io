@@ -61,7 +61,6 @@ h6{
 
 
 
-
 .but_osago, .but_shopauto, .but_command, .but_site{
     width: 100px;
     height: 43.5px;
@@ -104,7 +103,6 @@ border: none;
 .text_SCOS{
     color: white;
     width: 45px;
-    grid-area: site;
     margin-left: 45%;
     margin-top: -27%;
 }
@@ -142,6 +140,16 @@ border: none;
     height: 100px;
     grid-area: feedback;
 }
+.text_feedback{
+    color: #323232;
+}
+.imgFeedback{
+    padding-top: 7px;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .but_feedback{
     width: 100px;
     height: 100px;
@@ -158,13 +166,16 @@ border: none;
     height: 100px;
     grid-area: address;
 }
-.imgMap{
-    padding-top: 10px;
+.imgAddress{
     width: 50px;
     height: 50px;
+    margin-left: -55%;
+    padding-bottom: 15px;
 }
-.text_mapFeedback{
+.text_address{
     color: #323232;
+    margin-left: 40%;
+    margin-top: -26%;
 }
 .but_address{
     width: 200px;
