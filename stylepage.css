@@ -72,3 +72,18 @@ text-align: center;
 }
 
 
+
+
+
+
+/*Настройки страницы карты*/
+.mapscontainer{
+    max-width: 480;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+}
+
