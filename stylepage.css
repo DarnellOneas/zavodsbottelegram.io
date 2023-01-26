@@ -3,6 +3,7 @@ body{
     margin: 2%;
     -moz-user-select: none;
     user-select: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 span{
     color: rgb(255, 162, 0);

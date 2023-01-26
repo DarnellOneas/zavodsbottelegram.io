@@ -4,6 +4,7 @@ body{
         padding-top:50px;
         -moz-user-select: none;
         user-select: none;
+        font-family: 'Courier New', Courier, monospace;
 }
 .container{
      max-width: 480px;
