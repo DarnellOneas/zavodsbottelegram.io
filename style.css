@@ -93,7 +93,7 @@ h6{
     height: 43.5px;
     grid-area: site;
 }
-.imgSite{
+.imgSite, .imgCommand, .imgShopAuto, .imgOsago{
 width: 30px;
 height: 30px;
 padding-top: 5px;
@@ -103,8 +103,9 @@ border: none;
 
 .text_SCOS{
     color: white;
+    text-align: center;
     width: 45px;
-    margin-left: 45%;
+    margin-left: 43%;
     margin-top: -27%;
 }
 
