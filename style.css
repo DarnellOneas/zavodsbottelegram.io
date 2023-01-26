@@ -9,6 +9,8 @@ body{
         max-width: 480px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
         text-align: center;
         display: grid;
         justify-content: center;
@@ -25,12 +27,12 @@ h4{
     color: white;
     justify-content:center;
 }
-.phone{
-    width: 100px;
-    height: 100px;
-    grid-area: phone;
+h6{
+    color: white;
+    justify-content: center;
 }
-.but_phone{
+
+.but_phone, .but_towtrack{
     width: 100px;
     height: 100px;
     border: none;
@@ -41,7 +43,17 @@ h4{
     background: linear-gradient(45deg, #ff7301,#ff7d26);
 
 }
-.imgPhoneTowTruck{
+.phone{
+    width: 100px;
+    height: 100px;
+    grid-area: phone;
+}
+.towtrack{
+    width: 100px;
+    height: 100px;
+    grid-area: towtrack;
+}
+.imgPhoneTowTruck, .imgRequest{
     padding-top: 2px;
     width: 50px;
     height: 50px;
@@ -50,12 +62,9 @@ h4{
 }
 
 
-.osago{
-    width: 100px;
-    height: 43.5px;
-    grid-area: osago;
-}
-.but_osago{
+
+
+.but_osago, .but_shopauto, .but_command, .but_site{
     width: 100px;
     height: 43.5px;
     border: none;
@@ -65,23 +74,35 @@ h4{
     border-end-end-radius: 10px;
     background: linear-gradient(45deg,#323232,#595959);
 }
-
-
+.osago{
+    width: 100px;
+    height: 43.5px;
+    grid-area: osago;
+}
 .shopauto{
     width: 100px;
     height: 43.5px;
     grid-area: shopauto;
 }
-.but_shopauto{
+.command{
+
     width: 100px;
     height: 43.5px;
-    border: none;
-    border-start-end-radius: 10px;
-    border-end-start-radius: 10px;
-    border-start-start-radius: 10px;
-    border-end-end-radius: 10px;
-    background: linear-gradient(45deg, #323232,#595959);
+    grid-area: command;
 }
+.site{
+    width: 100px;
+    height: 43.5px;
+    grid-area: site;
+}
+.imgSite{
+    
+}
+
+
+
+
+
 
 
 .request{
@@ -102,21 +123,7 @@ h4{
 
 
 
-.towtrack{
-    width: 100px;
-    height: 100px;
-    grid-area: towtrack;
-}
-.but_towtrack{
-    width: 100px;
-    height: 100px;
-    border: none;
-    border-start-end-radius: 20px;
-    border-end-start-radius: 20px;
-    border-start-start-radius: 20px;
-    border-end-end-radius: 20px;
-    background: linear-gradient(45deg, #ff7301,#ff7d26);
-}
+
 
 
 
@@ -136,10 +143,6 @@ h4{
     background: linear-gradient(45deg,  #c1c1c1,#e4e4e4);
 
 }
-
-
-
-
 .address{
     width: 200px;
     height: 100px;
@@ -153,8 +156,6 @@ h4{
 .text_mapFeedback{
     color: #323232;
 }
-
-
 .but_address{
     width: 200px;
     height: 100px;
@@ -164,37 +165,4 @@ h4{
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
     background: linear-gradient(45deg,  #c1c1c1,#e4e4e4);
-
-}
-.command{
-
-    width: 100px;
-    height: 43.5px;
-    grid-area: command;
-}
-.but_command{
-    width: 100px;
-    height: 43.5px;
-    border: none;
-    border-start-end-radius: 10px;
-    border-end-start-radius: 10px;
-    border-start-start-radius: 10px;
-    border-end-end-radius: 10px;
-    background: linear-gradient(45deg, #323232,#595959);
-}
-.site{
-
-    width: 100px;
-    height: 43.5px;
-    grid-area: site;
-}
-.but_site{
-    width: 100px;
-    height: 43.5px;
-    border: none;
-    border-start-end-radius: 10px;
-    border-end-start-radius: 10px;
-    border-start-start-radius: 10px;
-    border-end-end-radius: 10px;
-    background: linear-gradient(45deg, #323232,#595959);
 }
