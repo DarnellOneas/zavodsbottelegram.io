@@ -12,7 +12,7 @@ span{
     display: grid;
     border: none;
     justify-content: center;
-    gap: 0;
+    gap: 5px;
     grid-template-areas: 
     'image'
     'description'
