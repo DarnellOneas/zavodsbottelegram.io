@@ -96,17 +96,17 @@ h6{
 .imgSite, .imgCommand, .imgShopAuto, .imgOsago{
 width: 30px;
 height: 30px;
-padding-top: 5px;
-margin-left: -60%;
-border: none;
+float: left
+/*padding-top: 5px;
+margin-left: -60%;*/
 }
 
 .text_SCOS{
     color: white;
     text-align: center;
     width: 45px;
-    margin-left: 43%;
-    margin-top: -27%;
+    /*margin-left: 43%;
+    margin-top: -27%;*/
 }
 
 
