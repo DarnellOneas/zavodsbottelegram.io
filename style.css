@@ -71,6 +71,8 @@ h6{
     border-start-start-radius: 10px;
     border-end-end-radius: 10px;
     background: linear-gradient(45deg,#323232,#595959);
+    display: flex;
+    flex-direction: row;
 }
 .osago{
     width: 100px;
@@ -96,7 +98,6 @@ h6{
 .imgSite, .imgCommand, .imgShopAuto, .imgOsago{
 width: 30px;
 height: 30px;
-float: left
 /*padding-top: 5px;
 margin-left: -60%;*/
 }
