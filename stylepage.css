@@ -10,34 +10,41 @@ span{
 }
 .container{
     max-width: 480px;
-    display: grid;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
     border: none;
     justify-content: center;
     gap: 5px;
-    grid-template-areas: 
+    flex-direction: column;
+    /* grid-template-areas: 
     'image'
     'description'
     'button_novgorod'
-    'button_krym';
+    'button_krym'; */
 }
 
 .image{
-    border: none;
     width: 200px;
     height: 200px;
     padding-left: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -5%;
+    margin-bottom: auto;
+    margin-top: auto;
+
 }
 
 
 .description{
-    font-weight: 500px;
     width: 200px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 h5{
     color: gray;
@@ -45,6 +52,7 @@ h5{
 }
 h4{
     color: white;
+    font-weight: 500px;
 }
 
 /*настройки кнопок*/
