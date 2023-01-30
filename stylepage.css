@@ -118,10 +118,11 @@ text-align: center;
     border-end-end-radius: 10px;
     width: 200px;
     height: 45px;
-    gap: 10px;
+    gap: 15px;
     display: flex;
-    flex-direction: space-around;
-    background: linear-gradient(120deg,#323232 10%,#595959 23%, #cccccc 23%,#ececec 77%,#ff7301 77%,#ff7d26 90%);
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(45deg,#ff7301,#ff7d26);
 }
 .image_but{
     width: 25px;
@@ -134,10 +135,42 @@ text-align: center;
 .name_map{
     width: 115px;
     padding-top: 1px;
-    color: #323232;
+    color: white;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
+}
+.but_search{
+    border: none;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    width: 200px;
+    height: 45px;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(45deg,#323232,#595959);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.text_search{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.image_map{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
