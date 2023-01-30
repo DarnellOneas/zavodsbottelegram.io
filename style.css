@@ -121,7 +121,6 @@ margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
     margin-top: auto;
-    padding-right: 2px;
 }
 
 
@@ -184,7 +183,7 @@ margin-left: auto;
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg,  #c1c1c1,#e4e4e4);
+    background: linear-gradient(45deg,  #cccccc,#ececec);
     display: flex;
     flex-direction: column;
 }
@@ -216,7 +215,7 @@ margin-left: auto;
     border-end-start-radius: 20px;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
-    background: linear-gradient(45deg,  #c1c1c1,#e4e4e4);
+    background: linear-gradient(45deg, #cccccc,#ececec);
     display: flex;
     flex-direction: space-around;
 }
