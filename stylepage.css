@@ -124,6 +124,20 @@ text-align: center;
     justify-content: space-between;
     background: linear-gradient(45deg,#ff7301,#ff7d26);
 }
+.but_office{
+    border: none;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    width: 200px;
+    height: 45px;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(45deg,#cccccc,#ececec);
+}
 .image_but{
     width: 25px;
     height: 25px;
@@ -132,10 +146,29 @@ text-align: center;
     margin-top: auto;
     margin-bottom: auto;
 }
-.name_map{
+.image_butB{
+    filter: invert(100);
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.name_map_service{
     width: 115px;
     padding-top: 1px;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+.name_map_office{
+    width: 115px;
+    padding-top: 1px;
+    color: #323232;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
