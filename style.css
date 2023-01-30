@@ -72,7 +72,7 @@ h6{
     border-end-end-radius: 10px;
     background: linear-gradient(45deg,#323232,#595959);
     display: flex;
-    flex-direction: row;
+    flex-direction: space-around;
 }
 .osago{
     width: 100px;
@@ -98,14 +98,12 @@ h6{
 .imgSite, .imgCommand, .imgShopAuto, .imgOsago{
 width: 30px;
 height: 30px;
-margin-top: 50%;
 }
 
 .text_SCOS{
     color: white;
-    text-align: center;
+ /*   text-align: center;*/
     width: 45px;
-    margin-top: -27%;
 }
 
 
