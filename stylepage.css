@@ -57,7 +57,7 @@ h4{
 
 /*настройки кнопок*/
 
-button{
+.but_phone{
     width: 200px;
     height: 45px;
     border: none;
@@ -79,15 +79,65 @@ text-align: center;
 
 
 
+/* Настройки страницы карты */
 
-/*Настройки страницы карты*/
-/* .mapscontainer{
+ .mapconteiner{
     max-width: 480;
     border: none;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height: 400px;
-    background-color: orange;
-} */
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.service_description, .office_description{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
+.service, .office{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.but_service{
+    border: none;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    width: 200px;
+    height: 45px;
+    gap: 10px;
+    display: flex;
+    flex-direction: space-around;
+    background: linear-gradient(120deg,#323232 10%,#595959 23%, #cccccc 23%,#ececec 77%,#ff7301 77%,#ff7d26 90%);
+}
+.image_but{
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.name_map{
+    width: 115px;
+    padding-top: 1px;
+    color: #323232;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
