@@ -26,11 +26,17 @@ body{
 }
 h4{
     color: white;
-    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 h6{
     color: white;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .but_phone, .but_towtrack{
@@ -42,7 +48,8 @@ h6{
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
     background: linear-gradient(45deg, #ff7301,#ff7d26);
-
+    display: flex;
+    flex-direction: column;
 }
 .phone{
     width: 100px;
@@ -55,11 +62,13 @@ h6{
     grid-area: towtrack;
 }
 .imgPhoneTowTruck, .imgRequest{
-    padding-top: 2px;
+
     width: 50px;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 
@@ -113,6 +122,7 @@ margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
     margin-top: auto;
+    padding-right: 2px;
 }
 
 
@@ -135,6 +145,8 @@ margin-left: auto;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
     background: linear-gradient(45deg,  #ff7301,#ff7d26);
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -150,9 +162,16 @@ margin-left: auto;
 }
 .text_feedback{
     color: #323232;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .imgFeedback{
-    padding-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
     width: 45px;
     height: 45px;
     margin-left: auto;
@@ -167,7 +186,8 @@ margin-left: auto;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
     background: linear-gradient(45deg,  #c1c1c1,#e4e4e4);
-
+    display: flex;
+    flex-direction: column;
 }
 .address{
     width: 200px;
@@ -177,13 +197,17 @@ margin-left: auto;
 .imgAddress{
     width: 50px;
     height: 50px;
-    margin-left: -55%;
-    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .text_address{
     color: #323232;
-    margin-left: 40%;
-    margin-top: -26%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .but_address{
     width: 200px;
@@ -194,4 +218,6 @@ margin-left: auto;
     border-start-start-radius: 20px;
     border-end-end-radius: 20px;
     background: linear-gradient(45deg,  #c1c1c1,#e4e4e4);
+    display: flex;
+    flex-direction: space-around;
 }
