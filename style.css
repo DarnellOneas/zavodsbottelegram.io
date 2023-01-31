@@ -16,7 +16,8 @@ body{
      border: none;
     justify-content: center;
     gap: 6px;
-    grid-template-areas: 
+    grid-template-areas:
+        'logo logo logo'
         'phone saleauto request'
         'phone shopauto request'
         'towtrack feedback request'
@@ -24,6 +25,12 @@ body{
         'address address osago'
         'address address site'
         'command command command';       
+}
+
+.logo{
+    width: 312px;
+    height: 62px;
+    grid-area: logo;
 }
 h4{
     color: white;
