@@ -163,12 +163,12 @@ margin-left: auto;
 
 .request{
     width: 100px;
-    height: 215px;
+    height: 213.5px;
     grid-area: request;
 }
 .but_request{
     width: 100px;
-    height: 213.5px;
+    height: 210.5px;
     border: none;
     border-start-end-radius: 20px;
     border-end-start-radius: 20px;
@@ -221,7 +221,7 @@ margin-left: auto;
 }
 .address{
     width: 200px;
-    height: 100px;
+    height: 96.5px;
     grid-area: address;
 }
 .imgAddress{
@@ -241,7 +241,7 @@ margin-left: auto;
 }
 .but_address{
     width: 200px;
-    height: 100px;
+    height: 96.5px;
     border: none;
     border-start-end-radius: 20px;
     border-end-start-radius: 20px;
