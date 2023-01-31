@@ -17,12 +17,13 @@ body{
     justify-content: center;
     gap: 6px;
     grid-template-areas: 
-        'phone osago request'
+        'phone saleauto request'
         'phone shopauto request'
         'towtrack feedback request'
         'towtrack feedback request'
-        'address address command'
-        'address address site';       
+        'address address osago'
+        'address address site'
+        'command command command';       
 }
 h4{
     color: white;
@@ -73,7 +74,7 @@ h6{
 
 
 
-.but_osago, .but_shopauto, .but_command, .but_site{
+.but_osago, .but_shopauto, .but_saleauto, .but_site{
     width: 100px;
     height: 43.5px;
     border: none;
@@ -96,17 +97,18 @@ h6{
     height: 43.5px;
     grid-area: shopauto;
 }
-.command{
+.saleauto{
     width: 100px;
     height: 43.5px;
-    grid-area: command;
+    grid-area: saleauto;
 }
 .site{
     width: 100px;
     height: 43.5px;
     grid-area: site;
 }
-.imgSite, .imgCommand, .imgShopAuto, .imgOsago{
+.imgSite, .imgSaleAuto, .imgShopAuto, .imgOsago, .imgCommand{
+    border: none;
 width: 30px;
 height: 30px;
 margin-left: auto;
@@ -124,7 +126,29 @@ margin-left: auto;
     margin-top: auto;
 }
 
+.command{
+    width: 300px;
+    height: 43.5px;
+    grid-area: command;
+}
+.but_command{
+    width: 312px;
+    height: 43.5px;
+    border: none;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    background: linear-gradient(45deg,#323232,#595959);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text_command{
+    color: white;
+    margin-left: -20%;
 
+}
 
 
 
