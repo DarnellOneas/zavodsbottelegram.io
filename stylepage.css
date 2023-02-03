@@ -50,10 +50,7 @@ h4{
     border-end-end-radius: 10px;
     background: linear-gradient(45deg, rgb(254, 93, 0),rgb(255, 162, 0));
 }
-.button_novgorod{
-   text-align: center;
-}
-.button_krym{
+.butt{
 padding-top: 10px;
 text-align: center;
 }
