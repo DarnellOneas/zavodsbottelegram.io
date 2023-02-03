@@ -17,20 +17,20 @@ body{
     justify-content: center;
     gap: 6px;
     grid-template-areas:
-        'logo logo logo'
         'phone saleauto request'
         'phone shopauto request'
         'towtrack feedback request'
         'towtrack feedback request'
         'address address osago'
         'address address site'
-        'command command command';       
+        'command command logo';       
 }
 
 .logo{
-    width: 312px;
-    height: 62px;
+    width: 90px;
+    height: 22px;
     grid-area: logo;
+    margin: auto;
 }
 h4{
     color: white;
@@ -134,12 +134,13 @@ margin-left: auto;
 }
 
 .command{
-    width: 300px;
+    padding-top: 5px;
+    width: 200px;
     height: 43.5px;
     grid-area: command;
 }
 .but_command{
-    width: 312px;
+    width: 200px;
     height: 43.5px;
     border: none;
     border-start-end-radius: 10px;
@@ -153,8 +154,6 @@ margin-left: auto;
 }
 .text_command{
     color: white;
-    margin-left: -20%;
-
 }
 
 
