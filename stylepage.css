@@ -11,29 +11,18 @@ span{
 .container{
     max-width: 480px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-top: auto;
+    margin: auto;
     border: none;
     justify-content: center;
     gap: 5px;
     flex-direction: column;
-    /* grid-template-areas: 
-    'image'
-    'description'
-    'button_novgorod'
-    'button_krym'; */
 }
 
 .image{
     width: 200px;
     height: 200px;
     padding-left: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-top: auto;
+    margin: auto;
 
 }
 
@@ -41,10 +30,7 @@ span{
 .description{
     width: 200px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-top: auto;
+    margin: auto;
 }
 h5{
     color: gray;
@@ -84,28 +70,19 @@ text-align: center;
  .mapconteiner{
     max-width: 480;
     border: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     justify-content: center;
     gap: 5px;
     display: flex;
     flex-direction: column;
 }
 .service_description, .office_description{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 
 .service, .office{
 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     gap: 5px;
     display: flex;
     flex-direction: column;
@@ -141,36 +118,23 @@ text-align: center;
 .image_but{
     width: 25px;
     height: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 .image_butB{
     filter: invert(100);
     width: 25px;
     height: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 .name_map_service{
     width: 160px;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
+    margin: auto;
 }
 .name_map_office{
     width: 140px;
     color: #323232;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     text-align: center;
 }
 .but_search{
@@ -188,16 +152,10 @@ text-align: center;
     margin-bottom: auto;
 }
 .text_search{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 .image_map{
     width: 200px;
     height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-top: auto;
+    margin: auto;
 }
