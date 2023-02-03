@@ -23,10 +23,7 @@ span{
     height: 200px;
     padding-left: 50px;
     margin: auto;
-
 }
-
-
 .description{
     width: 200px;
     text-align: center;
@@ -65,7 +62,11 @@ text-align: center;
 
 
 
-/* Настройки страницы карты */
+/*
+==============================================================================================
+Настройки страницы карты
+==============================================================================================
+*/
 
  .mapconteiner{
     max-width: 480;
@@ -146,10 +147,7 @@ text-align: center;
     width: 200px;
     height: 50px;
     background: linear-gradient(45deg,#323232,#595959);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 .text_search{
     margin: auto;
